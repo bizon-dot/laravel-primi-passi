@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
     return view('home', ['location' => 'metaverse']);
-});
+})->name('homepage');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/where', function () {
+    return view('where');
+})->name('where');
