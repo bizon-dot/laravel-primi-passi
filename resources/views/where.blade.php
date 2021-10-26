@@ -16,9 +16,7 @@
         }
 
         body {
-            background-color: #F77F00;
-            font-family: 'JetBrains Mono', monospace;
-
+            background-color: #F77F00
         }
 
         .links {
@@ -37,6 +35,7 @@
             margin-top: -50px;
             margin-left: -100px;
             color: #003049;
+            font-family: 'JetBrains Mono', monospace;
 
         }
 
@@ -54,13 +53,8 @@
             <a href="{{ route('where') }}"> Where am I?</a>
             <a href="{{ route('about') }}"> About </a>
         </div>
-
-
         <div class="centered">
-            <h1>Hello,Laravel</h1>
-            <div class="sub-title">
-                <h2>Greetings from {{ $location }} </h2>
-            </div>
+            <h1>Where am I?</h1>
         </div>
 
     </div>
