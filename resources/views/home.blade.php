@@ -3,11 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Laravel</title>
-
-  
-
         <!-- Styles -->
         <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
@@ -33,9 +29,9 @@
                 
             }
 
-           
-
-            
+            .sub-title{
+                margin-top: 10px;
+            }
 
         </style>
     </head>
@@ -48,6 +44,9 @@
 
         <div class="centered">
                 <h1>Hello,Laravel</h1>
+                <div class="sub-title">
+                    <h2>Greetings from {{ $location }} </h2>
+                </div>
         </div>
         
         </div>
